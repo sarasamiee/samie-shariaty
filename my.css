@@ -1,0 +1,48 @@
+body {
+ 
+  background-color: rgb(231, 226, 226);
+    display: block;
+    margin: 40px;
+    padding: 40px;
+}
+
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+nav link{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+  }
+  
+.active {
+    background-color: #4CAF50;
+  }
+form{
+  position: absolute;
+  right: 20px;
+}
+
+.features{
+ margin:20px;
+ padding: 0px;
+ position: relative;
+margin-left: 125px;
+
+}
+
+.features-title {
+  color: #333;
+  margin-bottom: 20px;
+}
+.feature-title{
+text-align: center;
+}
